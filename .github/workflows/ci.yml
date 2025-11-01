@@ -21,7 +21,7 @@ jobs:
           cache: 'npm'
 
       - name: 📦 Instalar dependências
-        run: npm ci
+        run: npm install --legacy-peer-deps
 
       - name: 🧠 Rodar testes WebdriverIO
         run: npx wdio run ./wdio.conf.ts
