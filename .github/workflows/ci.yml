@@ -28,8 +28,8 @@ jobs:
         working-directory: .
 
       - name: 📊 Gerar relatório Allure
-        if: always()
-        run: npx allure generate ./allure-results --clean -o ./allure-report
+        run: npx allure-commandline generate ./allure-results --clean -o ./allure-report
+        working-directory: qa.automationexercise-web.webdriverio
 
       - name: 📂 Upload do relatório como artefato
         if: always()
@@ -38,7 +38,7 @@ jobs:
           name: allure-report
           path: allure-report
 
-      - name: 🧭 Publicar Allure Report como página (opcional)
+      - name: 🧭 Publicar Allure Report como página
         if: always()
         uses: peaceiris/actions-gh-pages@v3
         with:
