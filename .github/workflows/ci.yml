@@ -25,7 +25,7 @@ jobs:
 
       - name: 🧠 Rodar testes WebdriverIO
         run: npx wdio run ./wdio.conf.ts
-        working-directory: qa.automationexercise-web.webdriverio
+        working-directory: .
 
       - name: 📊 Gerar relatório Allure
         if: always()
