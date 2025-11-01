@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3456","should verify product prices, quantity and total in the cart","TC12 - Add Products in Cart","Sat Nov 01 13:30:09 UTC 2025","passed","Sat Nov 01 13:30:12 UTC 2025","","","",""
+"","4025","should remove a product from the cart successfully","TC17 - Remove Products From Cart","Sat Nov 01 13:30:14 UTC 2025","passed","Sat Nov 01 13:30:18 UTC 2025","","","",""
+"","3001","should search for a product and display results correctly","TC09 - Search Product","Sat Nov 01 13:30:04 UTC 2025","passed","Sat Nov 01 13:30:07 UTC 2025","","","",""
+"","4511","should display empty cart message after removing all products","TC18 - Verify Cart is Empty After Removing All Products","Sat Nov 01 13:30:20 UTC 2025","passed","Sat Nov 01 13:30:25 UTC 2025","","","",""
+"","7640","should register and delete a user successfully","TC01 - Register User","Sat Nov 01 13:29:54 UTC 2025","passed","Sat Nov 01 13:30:02 UTC 2025","","","",""
